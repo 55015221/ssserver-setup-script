@@ -1,7 +1,7 @@
 { 
-    "listen": ":29900",
-    "target": "127.0.0.1:500",
-    "key": "very fast",
+    "listen": ":9900",
+    "target": "127.0.0.1:8379",
+    "key": "bily",
     "crypt": "aes",
     "mode": "fast2",
     "mtu": 1350,
