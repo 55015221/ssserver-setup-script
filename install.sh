@@ -20,10 +20,10 @@ echo "files = /etc/supervisor/conf.d/*.conf" >> /etc/supervisord.conf
 cp shadowsocks.conf /etc/supervisor/conf.d/
 cp kcptun.conf /etc/supervisor/conf.d/
 cp php-server.conf /etc/supervisor/conf.d/
-cp server-config.json /usr/local/kcptun/server-config.json
 
 mkdir -p /var/log/kcptun
 touch /var/log/kcptun/server.log
+cp server-config.json /usr/local/kcptun/server-config.json
 
 #install php 
 apt-get install -y php
